@@ -4,10 +4,10 @@
       <span class="header-banner">
         <img src="./assets/zhuanxian_03.jpg" alt="">
       </span>
-      <span class="header-rg">
+      <div class="header-rg">
         <a>登录</a>
         <img src="./assets/zhuanxian_06.jpg" alt="">
-      </span>
+      </div>
     </div>
     <div class="app-banner">专线园区
     </div>
@@ -91,6 +91,7 @@ export default {
   }
 
   .header-rg img {
+    display: inline-block;
     width: 44px;
     height: 28px;
     vertical-align: bottom;
