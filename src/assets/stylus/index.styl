@@ -15,6 +15,7 @@ html {
   }
   margin: 0px
   padding: 0px
+  -webkit-tap-highlight-color: transparent
 }
 
 body {
@@ -57,4 +58,42 @@ img { content: normal !important;}
 body {
   margin: 0px;
   padding: 0px;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 466032 */
+  src: url('//at.alicdn.com/t/font_466032_yenmqu2rhp.eot');
+  src: url('//at.alicdn.com/t/font_466032_yenmqu2rhp.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_466032_yenmqu2rhp.woff') format('woff'),
+  url('//at.alicdn.com/t/font_466032_yenmqu2rhp.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_466032_yenmqu2rhp.svg#iconfont') format('svg');
+}
+// .we-icon {
+//   direction: ltr;
+//   display: inline-block;
+//   font: normal normal normal 14px/1 "nisu";
+//   font-size: inherit;
+//   line-height: inherit;
+//   letter-spacing: normal;
+//   text-rendering: auto;
+//   text-transform: none;
+//   white-space: nowrap;
+//   overflow-wrap: normal;
+//   -webkit-font-feature-settings: "liga";
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+
+//   &--apps::before {
+//     content: "\e605";
+//   }
+// }
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  &--texticon::before {
+    content: "\e605";
+  }
 }

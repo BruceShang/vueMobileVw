@@ -22,9 +22,6 @@
   "dependencies": {
     "mint-ui": "^2.2.13",
     "nisu-koa2-sdk": "^1.0.3",
-    "nisusite-vue-deps": "^1.0.7"
-  },
-  "devDependencies": {
-    "ip": "^1.1.5"
+    "nisusite-vue-deps": "^1.0.9"
   }
 }

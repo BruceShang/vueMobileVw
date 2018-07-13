@@ -5,9 +5,10 @@ import Mint from 'mint-ui'
 import App from './App'
 import router from './router'
 import '@/assets/stylus/index.styl'
+import 'mint-ui/lib/style.css'
+// import '../node_modules/mint-ui/lib/style.css'
 
 Vue.config.productionTip = false
-// import 'mint-ui/lib/style.css';
 
 Vue.use(Mint)
 /* eslint-disable no-new */

@@ -13,6 +13,11 @@
     <div class="app-banner" style="background: url('http://image.mihui365.com/salelistImg/5169008608626988.jpg') no-repeat center; background-size: cover">
     <!-- 专线园区 -->
     </div>
+    <i class="iconfont">&#xe605;</i>
+    <i class="iconfont--texticon"></i>
+    <!-- <mt-button type="default">default</mt-button>
+    <mt-button type="primary">primary</mt-button>
+    <mt-button type="danger">danger</mt-button> -->
     <div class="app__content">
       <div class="app__item" v-for="item in picList" :key="item">
         <i class="app__border-1px"></i>
@@ -98,10 +103,13 @@ export default {
 
 <style>
   .header {
+    position: fixed;
     width: 100%;
     height: 80px;
+    top: 0px;
     padding-bottom: 20px;
     background: #ffffff;
+    z-index: 1;
   }
 
   .header-logo {
@@ -135,6 +143,6 @@ export default {
     text-align: center;
     line-height: 304px;
     color: rgba(255, 255, 255, 1);
-    /* background: url("./assets/banenr.png") */
+    margin-top: 80px;
   }
 </style>
